@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scan>
+	<meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Simple TODO Application</title>
+</head>
+<body>
+<div id="container">
+	<div class="controls">
+		<h1>PK's TODO App</h1>
+		<input type='text' id='input'> <br>
+		<p> Enter Your TODO</p>
+		<button type='button' id="add">Add New Task</button>
+		<button type='button' id="remove">Remove Completed Task</button>
+	</div>
+	<ul id ="list">
+		<li class="mycheck"><input type="checkbox" id="check">
+			<label>Make Bed</label>
+		</li>
+		<li class="mycheck"><input type="checkbox" id="check" checked>
+			<label>Record youtube VIdeo</label>
+		</li>
+		<li class="mycheck"><input type="checkbox" id="check">
+			<label>Machine Learning Coursera</label>
+		</li>
+		<li class="mycheck"><input type="checkbox" id="check">
+			<label>Read Book 50 pages</label>
+		</li>
+	</ul>
+</div>
+
+
+<script src='todo.js'></script>
+</body>
+</html>
